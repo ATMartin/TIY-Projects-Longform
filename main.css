@@ -1,0 +1,149 @@
+* { box-sizing: border-box; }
+
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url('https://unsplash.imgix.net/uploads/14115890754139bc8568d/d5e1ad1d?dpr=2&fit=crop&fm=jpg&h=700&q=75&w=1050');
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container > * {
+  padding: 0 2%;
+}
+
+.column-menu {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  padding-top: 60px;
+}
+
+.column-menu .logo {
+  position: absolute;
+  background-color: white;
+  top: -65px;
+  left: 5%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.column-menu .logo img {
+  display: block;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.column-menu .full-name {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+}
+ .column-menu .tagline {
+   font-size: 18px;
+   color: #ccc;
+
+ }
+
+.column-menu .search {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.column-menu .search h6 {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.column-menu .search input {
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 30px;
+  outline: none;
+}
+
+.column-content {
+  vertical-align: top;
+  display: inline-block;
+  width: 70%;
+}
+
+.column-content h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 50px;
+}
+
+.column-content h5 {
+  color: #ccc;
+  font-style: italic;
+}
+
+.popup {
+  font-family: 'Helvetica', sans-serif;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px 1px #ccc;
+}
+
+.popup .header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+
+.popup .header a {
+  text-decoration: none;
+  color: #ccc;
+  position: absolute;
+  right: 5px;
+}
+
+.popup .content {
+  padding: 10px;
+}
+
+.popup .content > * {
+  display: inline-block;
+}
+
+.popup .content img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2px;
+  vertical-align: bottom;
+}
+
+.popup .content .text .username {
+  font-weight: bold;
+}
+
+.popup .content .text .full-name {
+  color: #ccc;
+}
+
+.popup .content button {
+  font-size: 12px;
+  vertical-align: top;
+  border-radius: 2px;
+  background-color: #09c;
+  color: white;
+  border: 0;
+  /* height: 30px; */
+  padding: 8px 15px;
+  margin-top: 5px;
+}
